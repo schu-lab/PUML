@@ -1,7 +1,0 @@
-@startuml
-skinparam activityDiamondBackgroundColor purple
-repeat
-  :read data;
-  :generate diagrams;
-repeat while (<color white>**more data?**</color>) is (yes) -[#blue]->
-@enduml
